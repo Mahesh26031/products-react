@@ -1,7 +1,7 @@
 import React, { Component } from "react";
-const { data } = require("./items");
+const { data } = require("./Items");
 
-class Products extends Component {
+class ProductList extends Component {
   render() {
     return (
       <div>
@@ -23,4 +23,4 @@ class Products extends Component {
   }
 }
 
-export default Products;
+export default ProductList;
